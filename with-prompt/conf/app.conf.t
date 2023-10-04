@@ -11,6 +11,5 @@ runmode = ${<%= Appname %>_RUNMODE||dev}
 autorender = false
 copyrequestbody = true
 EnableDocs = true
-
 #Ejemplo
 #<%= h.inflection.camelize(appname) %>Url = ${<%= Appname %>_URL}
