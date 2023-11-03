@@ -7,12 +7,33 @@ Plantilla para la creación de una **API MID en GO** con el generador de código
 
 - [Lineamientos](https://github.com/udistrital/lineamientos_oas/tree/master)
 
-2. Instalar Hygen en el directorio raiz “~/go/src/github.com/udistrital”.
+2. Instalar Node v12.
+
+```shell
+sudo apt update
+```
+```shell
+sudo apt-get update
+```
+```shell
+sudo apt install npm
+```
+```shell
+sudo npm install -g n
+```
+```shell
+sudo n 12
+```
+
+3. Instalar e inicializar Hygen en el directorio raiz “~/go/src/github.com/udistrital”.
 ```shell
 cd $GOPATH/src/github.com/udistrital/
 ```
 ```shell
-npm i -g hygen
+sudo npm i -g hygen
+```
+```shell
+hygen init self
 ```
 
 ## Creación de API MID con Hygen
