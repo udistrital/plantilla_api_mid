@@ -5,16 +5,16 @@ module.exports = [
   {
     type: 'input',
     name: 'goversion',
-    message: "Indique una versión de GO -- Ejemplo (1.15, 1.16, 1.17, 1.18)"
+    message: "Indique una versión de GO -- Ejemplo (1.15, 1.16, 1.17, 1.18, 1.19. 1.20)"
   },
   {
     type: 'input',
     name: 'pgversion',
-    message: "Indique una versión de Postgres"
+    message: "Indique una versión de Postgres -- Ejemplo (10.34)"
   },
   {
     type: 'input',
     name: 'dcversion',
-    message: "Versión de docker-compose"
+    message: "Indique una versión de docker-compose -- Ejemplo (3.2)"
   }
 ]
