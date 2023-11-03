@@ -3,7 +3,11 @@ Plantilla para la creación de una **API MID en GO** con el generador de código
 
 ## Prerrequisitos:
 
-1.	Instalar Hygen en el directorio raiz “~/go/src/github.com/udistrital”
+1. Instalación de GO y BEEGO.
+
+[Lineamientos]{https://github.com/udistrital/lineamientos_oas/tree/master}
+
+2. Instalar Hygen en el directorio raiz “~/go/src/github.com/udistrital”.
 ```shell
 cd $GOPATH/src/github.com/udistrital/
 ```
